@@ -10,7 +10,7 @@ elsif array.size == 3
   return string
 elsif array.size > 3
   n = array.size
-  string = array[0..n].join(", ") + ", and " + array[n]
+  string = array[0..(n-1)].join(", ") + ", and " + array[(n)]
   return string
   end
 end
