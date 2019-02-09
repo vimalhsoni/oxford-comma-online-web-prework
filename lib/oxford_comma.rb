@@ -7,7 +7,7 @@ elsif array.size == 2
   return string
 elsif array.size == 3
   array.each do |test|
-    puts test
+    puts "{test}, {test}, and {test}"
   end
 end
 end
