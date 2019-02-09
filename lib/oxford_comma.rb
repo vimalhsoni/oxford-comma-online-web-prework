@@ -6,8 +6,7 @@ elsif array.size == 2
   string = array.join(" and ")
   return string
 elsif array.size == 3
-  array.each_with_index do |index, element|
-    puts element
+  array[0]
   end
 end
 end
