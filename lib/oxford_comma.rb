@@ -5,3 +5,4 @@ return string
 elsif array.size == 2
   return string
 end
+end
