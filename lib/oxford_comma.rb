@@ -10,7 +10,8 @@ elsif array.size == 3
   return string
 elsif array.size > 3
   n = array.size
-  string = array[0..3].join(", ") + ", and " + array[4]
-  return string
+  return n
+  #string = array[0..3].join(", ") + ", and " + array[4]
+  #return string
   end
 end
