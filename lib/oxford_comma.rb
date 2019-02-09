@@ -9,4 +9,3 @@ elsif array.size == 3
   array[0]
   end
 end
-end
