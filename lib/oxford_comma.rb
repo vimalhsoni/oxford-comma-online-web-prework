@@ -7,5 +7,7 @@ elsif array.size == 2
   return string
 elsif array.size == 3
   array[0]
+  array[1]
+  array[3]
   end
 end
