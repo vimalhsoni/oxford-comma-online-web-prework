@@ -7,7 +7,7 @@ elsif array.size == 2
   return string
 elsif array.size == 3
   array.insert(2,"and")
-  string = array.join
+  string = array.join(" ")
   return string
   end
 end
