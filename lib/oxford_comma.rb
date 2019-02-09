@@ -9,7 +9,6 @@ elsif array.size == 3
   array.insert(2,"and")
   #array.insert(1,",")
   string = array.each
-  string << ","
   return string
   end
 end
