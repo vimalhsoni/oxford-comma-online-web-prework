@@ -7,7 +7,7 @@ elsif array.size == 2
   return string
 elsif array.size == 3
   array.each_with_index do |index, element|
-    puts test
+    puts element
   end
 end
 end
