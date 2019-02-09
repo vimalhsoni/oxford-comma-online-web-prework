@@ -6,8 +6,7 @@ elsif array.size == 2
   string = array.join(" and ")
   return string
 elsif array.size == 3
-  array[0]
-  array[1]
-  array[3]
+  string = array.join(",")
+  return string
   end
 end
