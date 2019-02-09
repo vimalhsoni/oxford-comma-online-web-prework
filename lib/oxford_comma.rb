@@ -9,6 +9,8 @@ elsif array.size == 3
   string = array[0..1].join(", ") + ", and " + array[2]
   return string
 elsif array.size > 3
+  n = array.size
   string = array[0..3].join(", ") + ", and " + array[4]
+  return string
   end
 end
